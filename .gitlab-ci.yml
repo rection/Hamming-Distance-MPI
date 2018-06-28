@@ -7,7 +7,7 @@ before_script:
 test:
   script:
   - apt-get update && apt-get upgrade
-  - pip install mpi4py
+  - easy_install mpi4py
   - apt-get install gcc gfortran wget -y
   - mkdir /nfs
   - cd /nfs
