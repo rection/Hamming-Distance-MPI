@@ -18,5 +18,5 @@ test:
   - python setup.py build --mpicc=/where/you/have/mpicc
   - python setup.py build --mpi=other_mpi
   - python setup.py install
-  - cd /builds/rection/Dice-WindFall-MPI
+  - cd /builds/rection/Hamming-Distance-MPI
   - mpiexec -n 4 --allow-run-as-root python2.7 Hamming.py
