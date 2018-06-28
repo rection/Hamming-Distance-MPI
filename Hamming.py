@@ -28,7 +28,6 @@ def randos():		#randos adinda fonksiyon tanimlanmakta.
                         p += 1		#sayac tutulmasi nedeni toplam kac tane esit olmayan deger oldugunu tutmak
 
         print 'Hamming mesafesi ' , p	#sayac sayesinde hamming mesafesi tutulmakta.
-print p
 
 
 if rank ==0:				#sifirinci  yani main cekirdek atatigimiz degere gelince asagidakini uygula anlamina geliyor. 
