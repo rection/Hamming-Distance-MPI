@@ -5,5 +5,5 @@ before_script:
 
 test:
   script:
-  - pip install mpi4py
   - python2.7 Hamming.py
+  - pip install mpi4py
