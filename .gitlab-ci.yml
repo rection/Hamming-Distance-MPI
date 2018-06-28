@@ -10,7 +10,7 @@ test:
   - mkdir /nfs
   - cd /nfs
   - wget http://www.mpich.org/static/downloads/3.1.4/mpich-3.1.4.tar.gz
-  - apt-get install gcc gcc-fortran kernel-devel -y
+  - apt-get install gcc gcc-fortran  -y
   - tar -xvf mpich-3.1.4.tar.gz 
   - mkdir /nfs/mpich3
   - cd /nfs/mpich-3.1.4
