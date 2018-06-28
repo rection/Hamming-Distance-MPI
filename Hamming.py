@@ -24,7 +24,7 @@ def randos():		#randos adinda fonksiyon tanimlanmakta.
         p = 0				#p degiskeni sifirlanmis ve integer tipindedir.
         for pos in range(0,z):		#rastgele olusan arraylerin icinde gezinebilmek icin for dongusu ve range methodu
                 if a[pos] != b[pos]:	#degerlerin farkil oldugu yer de asagidaki yazi yazdirilacak.
-                        print  pos ,'degerinde esit degildir a degeri ' ,a[pos] ,'b degeri' ,b[pos]
+#                        print  pos ,'degerinde esit degildir a degeri ' ,a[pos] ,'b degeri' ,b[pos]
                         p += 1		#sayac tutulmasi nedeni toplam kac tane esit olmayan deger oldugunu tutmak
 
         print 'Hamming mesafesi ' , p	#sayac sayesinde hamming mesafesi tutulmakta.
