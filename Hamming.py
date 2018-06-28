@@ -18,8 +18,8 @@ def randos():		#randos adinda fonksiyon tanimlanmakta.
                 l = randint(0,1)
                 a.append(k)		#append veri yapilarinda array e integer eklemek icin kullaniliyor.
                 b.append(l)
-        print a
-        print b
+#        print a
+#        print b
 
         p = 0				#p degiskeni sifirlanmis ve integer tipindedir.
         for pos in range(0,z):		#rastgele olusan arraylerin icinde gezinebilmek icin for dongusu ve range methodu
