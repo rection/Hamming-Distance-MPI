@@ -6,6 +6,7 @@ before_script:
 
 test:
   script:
+  - pip install mpi4py
   - apt-get update && apt-get upgrade
   - apt-get install gcc gfortran wget -y
   - mkdir /nfs
@@ -18,5 +19,4 @@ test:
   - ./configure --prefix=/nfs/mpich3
   - make
   - make install
-  - pip install mpi4py
   - mpiexec -n 4 python Hamming.py
