@@ -6,8 +6,8 @@ before_script:
 
 test:
   script:
-  - yes y | apt-get update 
-  - yes y | apt-get upgrade 
+          #  - yes y | apt-get update 
+          #- yes y | apt-get upgrade 
   - yes y | apt-get install mpich gcc gfortran wget python-mpi4py python-numpy -y
   - mkdir /nfs
   - cd /nfs
