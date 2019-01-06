@@ -23,7 +23,7 @@ def control(array1,array2,totalprocess):
     result=0
     for i in range(0,totalprocess):
         result += hamming(array1[i],array2[i])
-    return result
+    print(result)
 
 
 if __name__ == "__main__":  # confirms that the code is under main function
@@ -52,8 +52,7 @@ if __name__ == "__main__":  # confirms that the code is under main function
         array2[i] = num2
         i += 1
         tasks.append((num1,num2))
-    # for i in range(0,totalprocess):
-    #     result += hamming(array1[i],array2[i])
+
 
 
 
