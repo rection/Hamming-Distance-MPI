@@ -6,9 +6,9 @@ before_script:
 
 test:
   script:
-          #  - yes y | apt-get update 
-          #- yes y | apt-get upgrade 
-  - yes y | apt-get install mpich gcc gfortran wget python-mpi4py python-numpy -y
+  - apt-get update -y
+  - apt-get upgrade -y
+  - apt-get install mpich gcc gfortran wget python-mpi4py python-numpy -y
   - mkdir /nfs
   - cd /nfs
   - wget https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-3.0.0.tar.gz
