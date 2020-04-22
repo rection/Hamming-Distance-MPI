@@ -27,3 +27,4 @@ cd Hamming-Distance-MPI
 mpiexec -n 4 --allow-run-as-root python2.7 Hamming2.py
 ```
 
+Additionally, you can find Gitlab-CI samples in gitlab [project.](https://gitlab.com/rection/Hamming-Distance-MPI)
